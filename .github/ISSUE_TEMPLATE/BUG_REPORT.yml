@@ -1,0 +1,29 @@
+name: 🐞 Bug Report
+description: Report unexpected behavior of this project
+labels: ['bug']
+assignees: ['uynilo9']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📑 Issue description
+      description: Give us a brief description of what went wrong.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 📎 Steps To Reproduce
+      description: Steps to reproduce the behavior in detail.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 👀 Additional Information
+      description: |
+        Provide additional information such as logs, screenshots, where the error occurred.
+    validations:
+      required: true

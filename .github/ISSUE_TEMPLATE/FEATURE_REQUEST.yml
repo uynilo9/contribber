@@ -1,0 +1,21 @@
+name: ✨Feature Request
+description: Request a new feature or enhancement
+labels: ['feature']
+assignees: ['uynilo9']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📑 Feature description
+      description: Give us a brief description of the feature or enhancement you'd like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 👀 Additional Information
+      description: |
+        Provide us with some additional information, such as build solutions, links, screenshots.
+    validations:
+      required: true

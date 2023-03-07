@@ -1,0 +1,17 @@
+{
+  "private": "true",
+  "name": "contribber",
+  "version": "1.0.0",
+  "description": "Make your GitHub contribution graph be like a pro",
+  "type": "module",
+  "main": "contribber.js",
+  "author": "uynilo9",
+  "license": "MIT",
+  "scripts": {
+    "contribber": "node ."
+  },
+  "dependencies": {
+    "simple-git": "^3.16.1"
+  },
+  "devDependencies": {}
+}
